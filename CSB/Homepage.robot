@@ -7,8 +7,8 @@ ${browser}        chrome
 
 *** Test Cases ***
 Logo and copy rights verification
-    Local browser launch
-    #Jenkins browser launch
+    #Local browser launch
+    Jenkins browser launch
     Element Should Be Visible    xpath=.//div[@class='navbar-brand']/a/img
     Sleep    4s
     Execute JavaScript    window.scrollTo(0, document.body.scrollHeight)
